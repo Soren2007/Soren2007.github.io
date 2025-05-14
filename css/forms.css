@@ -1,0 +1,50 @@
+.input__box{
+    width: 100%;
+    margin: 10px;
+}
+.form>div .input__box:first-child, .form >div .input__box:nth-child(2){
+    width: 46%;
+}
+
+.form>div .input__box:first-child input, .form>div .input__box:nth-child(2) input{
+    margin-left: 0px;
+}
+
+input, textarea{
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 10px;
+    height: 30px;
+    width: 90%;
+    background-color: var(--gray_color_16);
+    color: var(--gray_color_6);
+    outline: none;
+    border: none;
+    padding: 8px 12px;
+    text-transform:uppercase
+}
+
+textarea{
+    height: 180px;
+    resize: none;
+}
+
+input[type="submit"]{
+    height: 40px;
+    cursor: pointer;
+    width: 94%;
+    box-shadow: var(--shadow);
+    transition: all .5s;
+}
+
+input[type="submit"]:hover{
+    color: var(--primary_color);
+    scale: 1.04;
+}
+
+label{
+    font-size: 1rem;
+    color: var(--ligth_color);
+    margin-left: 13px;
+}
