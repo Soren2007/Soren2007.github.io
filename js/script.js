@@ -22,3 +22,7 @@ skill_cards.forEach(element => {
     })
 });
 // progress
+AOS.init();
+document.querySelector('main').addEventListener("scroll", (e)=>{
+    AOS.refresh()
+})
