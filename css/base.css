@@ -138,6 +138,12 @@ main::-webkit-scrollbar {width: 0px;}
 /* main */
 
 /* btn */
+.btns{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .btn{
   border-radius: 10px;
   display: inline-block;
@@ -150,6 +156,18 @@ main::-webkit-scrollbar {width: 0px;}
   line-height: 40px;
   margin-right: 20px;
   text-decoration: none;
+}
+
+
+
+.btn__social__media{
+  width: 55px;
+  height: 55px;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--ligth_color);
 }
 
 

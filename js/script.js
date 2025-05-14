@@ -5,7 +5,7 @@ skill_cards.forEach(element => {
         let value = element.getAttribute("data-value"),
             startValue = 0,
             endValue = Number(value),
-            speed = 60
+            speed = 20
         const progressText = element.querySelector(".progress__text__number"),
             progressValue = element.querySelector(".progress__value"),
             progress = setInterval(() => {
