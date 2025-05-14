@@ -55,6 +55,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* text */
@@ -113,7 +114,6 @@ header{
   width: 40vw;
 
 }
-
 /* header */
 
 /* main */
