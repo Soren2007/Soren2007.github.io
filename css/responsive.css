@@ -21,3 +21,17 @@
         width: 80%;
     }
 }
+@media screen and (max-width:585px) {
+    .form>div .input__box:first-child, .form >div .input__box:nth-child(2) {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .form> .flex{
+        display: block;
+    }
+
+    .form>div .input__box:first-child input, .form>div .input__box:nth-child(2) input {
+        margin-left: 10px;
+    }
+}

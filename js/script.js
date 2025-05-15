@@ -22,7 +22,29 @@ skill_cards.forEach(element => {
     })
 });
 // progress
+
+// aos
 AOS.init();
 document.querySelector('main').addEventListener("scroll", (e)=>{
     AOS.refresh()
 })
+// aos
+
+//email
+let form = document.querySelector(".form")
+function send() {
+    Email.send({
+        SecureToken : "etat-wcfk-kyga-wclp",
+        To : 'SorenShamloo.Programmer@gmail.com',
+        From : form.querySelector("input[name='email']").value,
+        Subject : form.querySelector("input[name='subject']").value,
+        Body : form.querySelector("input[name='firstname']").value + " " + form.querySelector("input[name='lastname']").value + "\n" + form.querySelector("textarea").value + "\n"
+    }).then(
+        message => alert(message)
+    );
+}
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    send();
+})
+//email
