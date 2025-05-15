@@ -25,8 +25,13 @@ skill_cards.forEach(element => {
 
 // aos
 AOS.init();
-document.querySelector('main').addEventListener("scroll", (e)=>{
-    AOS.refresh()
+let back_to_top_btn = document.querySelector(".btn__back__to__top")
+, main = document.querySelector('main')
+main.addEventListener("scroll", (e)=>{
+    AOS.refresh();
+
+    if (main.scrollTop > 1) {back_to_top_btn.classList.remove("back__to__top__btn__hidden")}
+    else{back_to_top_btn.classList.add("back__to__top__btn__hidden")}
 })
 // aos
 

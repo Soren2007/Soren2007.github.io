@@ -7,6 +7,9 @@
     header{
         width: 90vw;
     }
+    /* body{
+        overflow: auto;
+    } */
 }
 @media screen and (max-width:650px) {
     h1, h2, header p{
