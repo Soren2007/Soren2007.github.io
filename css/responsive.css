@@ -16,3 +16,8 @@
         justify-content: center;
     }
 }
+@media screen and (max-width:600px) {
+    .card__certificate__content{
+        width: 80%;
+    }
+}

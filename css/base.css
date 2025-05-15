@@ -278,6 +278,7 @@ main::-webkit-scrollbar {width: 0px;}
 
 .card__certificate{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card__certificate__title{
