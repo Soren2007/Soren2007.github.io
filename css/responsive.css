@@ -18,6 +18,9 @@
     .avatar__group{
         justify-content: center;
     }
+    header{
+        margin-top: 145px;
+    }
 }
 @media screen and (max-width:600px) {
     .card__certificate__content{
@@ -51,5 +54,4 @@
     .card__certificate{
         justify-content: center;
     }
-
 }
