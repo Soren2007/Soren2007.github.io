@@ -282,15 +282,18 @@ main::-webkit-scrollbar {width: 0px;}
   display: flex;
   align-items: center;
   margin: 10px;
-  transition: all .5s;
+  transition: all .4s ease-in-out;
 }
 .skill__card:hover{
   width: 200px;
-  transition: all .5s;
+  transition: all .4s ease-in-out;
 }
 .skill__card__icon{
   margin-top: 5px;
   margin-left: 5px;
+}
+.skill__card__icon img{
+  width: 45px;
 }
 .skill__card__content{
   margin-left: 10px
