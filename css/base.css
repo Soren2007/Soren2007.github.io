@@ -365,7 +365,7 @@ main::-webkit-scrollbar {width: 0px;}
   color: var(--ligth_color);
   margin: 10px;
   cursor: pointer;
-  transition: all .3s;
+  transition: all .1s;
 }
 .list li>div{
   display: flex;
@@ -379,19 +379,19 @@ main::-webkit-scrollbar {width: 0px;}
   display: inline-block;
   margin-left: 20px;
   opacity: 0;
-  transition: all .3s;
+  transition: all .1s ease;
 
 }
 .list li:hover a, .list li:hover svg{
   color: var(--primary_color);
   opacity: 1;
-  transition: all .3s;
+  transition: all .1s ease;
 }
 
 .list li:hover .text-box{
   color: var(--primary_color);
   border-color: var(--primary_color);
-  transition: all .5;
+  transition: all .1 ease;
 }
 
 .list li:hover{
