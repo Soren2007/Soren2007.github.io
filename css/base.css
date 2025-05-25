@@ -67,9 +67,23 @@ h1, h2, h3, h4, h5, h6, span{
   color: var(--ligth_color);
 }
 
-h1{
-  font-size: 2.7rem;
+.h1__header__box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.8rem;
+  font-weight: 900;
 }
+
+.h1__header__box h1{
+  margin-left: 7px;
+  font-size: 2.8rem;
+}
+.h1__header__box span{
+  font-size: 2.8rem;
+}
+
 h2{
   font-size: 2rem;
 }
@@ -188,11 +202,12 @@ main::-webkit-scrollbar {width: 0px;}
 .btn__social__media{
   width: 55px;
   height: 55px;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--ligth_color);
+  border-radius: 50%;
 }
 
 
@@ -418,8 +433,8 @@ main::-webkit-scrollbar {width: 0px;}
 
 /* avatar */
 .avatar{
-  width: 160px;
-  height: 160px;
+  width: 175px;
+  height: 175px;
   border-radius: 50%;
   overflow: hidden;
   margin-right: 15px;

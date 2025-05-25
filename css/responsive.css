@@ -46,8 +46,6 @@
     .card__content {
         justify-content: center !important;
     }
-}
-@media screen and (max-width:320px) {
     .form>div .input__box:first-child input, .form>div .input__box:nth-child(2) input {
         margin-left: 0px;
     }
@@ -56,5 +54,16 @@
     }
     .card__certificate{
         justify-content: center;
+    }
+}
+@media screen and (max-width:425px) {
+    .h1__header__box h1{
+        font-size: 2.1rem;
+    }
+    .h1__header__box span{
+        font-size: 2.1rem;
+    }
+    h2{
+        font-size: 1.4rem;
     }
 }
