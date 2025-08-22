@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /admin/
-Sitemap: http://www.rajaee-school.ir/sitemap.xml
+Sitemap: http://soren2007.github.io/sitemap.xml
