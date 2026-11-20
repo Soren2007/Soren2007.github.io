@@ -66,7 +66,7 @@
     const subject = encodeURIComponent(String(data.get('subject') || 'Portfolio inquiry'));
     const body = encodeURIComponent(`Name: ${data.get('name')}\nEmail: ${data.get('email')}\n\n${data.get('message')}`);
     if (recipient === 'sorenshamlou@gmail.com') {
-      if (status) status.textContent = 'Email is not configured yet. Please contact me through Telegram, or add your email address in js/main.js.';
+      if (status) status.textContent = 'Email is not configured yet. Please contact me through Telegram';
       return;
     }
     if (status) status.textContent = 'Opening your email application…';
