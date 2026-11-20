@@ -61,11 +61,11 @@
     event.preventDefault();
     if (!form.reportValidity()) return;
     // Replace this address with the owner's confirmed email before publishing.
-    const recipient = 'YOUR_EMAIL_ADDRESS_HERE';
+    const recipient = 'sorenshamlou@gmail.com';
     const data = new FormData(form);
     const subject = encodeURIComponent(String(data.get('subject') || 'Portfolio inquiry'));
     const body = encodeURIComponent(`Name: ${data.get('name')}\nEmail: ${data.get('email')}\n\n${data.get('message')}`);
-    if (recipient === 'YOUR_EMAIL_ADDRESS_HERE') {
+    if (recipient === 'sorenshamlou@gmail.com') {
       if (status) status.textContent = 'Email is not configured yet. Please contact me through Telegram, or add your email address in js/main.js.';
       return;
     }
